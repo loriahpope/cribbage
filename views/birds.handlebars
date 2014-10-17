@@ -1,0 +1,18 @@
+<script id="hw4-template" type="text/x-handlebars-template">
+</script>
+
+<h3> Enjoy this list of birds! </h3>
+
+<ul>
+	{{#each birdList}}
+	<li><b class="sightings">{{seen}}</b> x {{name}}</li>
+	{{/each}}
+</ul>
+
+<form method="POST" action="">
+	<input type="text" name="birdList">
+	</br>
+	<input type="submit" value="Add My Bird">
+</form>
+
+<a href="/settings">My Settings</a>

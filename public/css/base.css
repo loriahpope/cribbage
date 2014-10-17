@@ -1,0 +1,57 @@
+body{
+	background-color: #FFFECA;
+	color: black;
+	font-family: arial;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+a{
+	color: rgb(249, 255, 155);
+	font-size: 18px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+img{
+	border-radius: 50%;
+	border: 5px solid;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.container{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+	margin: 0 auto;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input[type=submit]{
+	background-color: rgb(221, 211, 211);
+	border-radius: 15px;
+	border: 1px solid #000;
+	font-size: 15px;
+	font-family: arial;
+	margin: 10px;
+}
+
+input[type=text]{
+	width: 40%;
+	height: 25px;
+	font-size: 18px;
+	text-align: center;
+	border: 2px dashed rgba(128, 128, 128, 0.54);
+}
+
+.sightings{
+	color: rgb(249, 255, 155);
+}
